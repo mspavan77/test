@@ -1,5 +1,5 @@
 main() {
 	biggest3();
 	factorial();
-	rev();
+	addition();
 }
