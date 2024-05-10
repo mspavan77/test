@@ -1,9 +1,10 @@
 pipeline {
-    agent any 
+    agent { label 'pavan_label'}
     stages {
         stage('Hello') {
             steps {
-                echo "Hello World"
+                cd /home/ubuntu/workspace/multi-branch_1_dev123
+                make ABC.exe
             }
         }
     }
