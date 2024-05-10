@@ -1,5 +1,5 @@
 pipeline {
-    agent any 
+    agent { label 'pavan_label'}
     stages {
         stage('Hello') {
             steps {
